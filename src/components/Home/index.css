@@ -1,0 +1,78 @@
+.home-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  }
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    margin-top: 90px;
+    margin-left: 35px;
+    margin-right: 0px;
+    max-width: 900px;
+  }
+}
+
+.home-heading {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 65px;
+    width: 80%;
+  }
+}
+
+.home-description {
+  color: #f8fafc;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 26px;
+    width: 80%;
+  }
+}
+
+.home-button {
+  align-self: flex-start;
+  background-color: #6366f1;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-button {
+    padding: 12px 20px 12px 20px;
+    font-size: 18px;
+  }
+}

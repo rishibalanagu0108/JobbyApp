@@ -1,0 +1,246 @@
+.job-item-bg-container {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-item-container {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px 20px 15px;
+  width: 90%;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.description-and-visit-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .description-and-visit-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .description-heading {
+    font-size: 28px;
+  }
+
+  .description-value {
+    font-size: 20px;
+  }
+}
+
+.description-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.company-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.arrow-image {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.job-item-skills-heading {
+  color: #fff;
+  font-size: 21px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-skills-heading {
+    font-size: 28px;
+  }
+}
+
+.job-item-skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 220px;
+  height: auto;
+}
+
+.skill-item-image {
+  width: 20px;
+  height: 20px;
+}
+
+.skill-item-name {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-left: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-item {
+    width: 30%;
+    height: auto;
+  }
+
+  .skill-item-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skill-item-name {
+    font-size: 24px;
+    margin-left: 12px;
+  }
+}
+
+.life-company-heading {
+  color: #fff;
+  font-size: 21px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+.life-at-company-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.life-company-about {
+  color: #f1f5f9;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+
+.life-company-image {
+  width: 90%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .life-company-heading {
+    font-size: 28px;
+  }
+
+  .life-at-company-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .life-company-about {
+    font-size: 20px;
+    width: 50vw;
+  }
+
+  .life-company-image {
+    width: 43vw;
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+}
+
+.similar-jobs-container {
+  width: 90%;
+}
+
+.similar-items-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #fff;
+}
+
+.similar-jobs-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-list-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.loading-view-container {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.failure-view-image {
+  width: 60%;
+  height: auto;
+}
+
+.failure-view-heading {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: #fff;
+}
+
+.failure-view-about {
+  color: #f8fafc;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.failure-view-button {
+  background-color: #4f46e5;
+  color: #fff;
+  font-family: 'Roboto';
+  text-align: center;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px 15px 10px 15px;
+}
